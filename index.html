@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Links</title>
+    <style>
+         *{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        box-sizing: border-box;
+    }
+    .window{
+        width: 80%;
+        margin: auto;
+        margin-top: 100px;
+        height: 500px;
+        position: relative;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+    }
+    .reel{
+        width: 500%;
+        height: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        animation: slider 10s infinite;
+        
+    }
+    .reel div{
+        height: 100%;
+        width: 20%;
+        float: left;
+        position: relative;
+    }
+    .reel div img{
+        width: 100%;
+        height: 100%;
+    }
+   
+    .reel div h1{
+        position: absolute;
+        left: 50%;
+        top: 70%;
+        transform: translateX(-50%);
+        color: aliceblue;
+    }
+    .reel div a{
+        position: absolute;
+        left: 50%;
+        top: 80%;
+        transform: translateX(-50%);
+        color: aliceblue;
+    }
+    @keyframes slider {
+        0%{ left: 0}
+        15%{left:0%}
+        25%{left:-100%}
+        44%{left: -100%}
+        45%{left: -200%}
+        64%{left: -200%}
+        65%{left: -300%}
+        84%{left: -300%}
+        85%{left: -400%}
+        95%{left: -400%}
+        97.5%{left: -400%}
+        100%{left: 0}
+    }
+    </style>
+   
+</head>
+
+<body>
+    <div class="window">
+        <div class="reel">
+            <div>
+                <img src="./img1.jpg" alt=""> 
+                <h1>About me</h1>
+                <a href="https://shravya-25.github.io/M-Shravya-Bhat/">Link</a>
+            </div>
+            <div>
+                <img src="./img2.jpg" alt="">
+                <h1>Clone of moon website</h1>
+                <a href="https://shravya-25.github.io/Moon-Wesite-Shravya/">Link</a>
+            </div>
+            <div>
+                <img src="./im3.jpg" alt="">
+                <h1>Website</h1>
+                <a href="https://shravya-25.github.io/Website---Shravya-Bhat/">Link</a>
+            </div>
+            <div>
+                <img src="./img4.jpg" alt="">
+                <h1>The Gallery</h1>
+                <a href="https://shravya-25.github.io/Gallery1/Gallery%202.html">Link</a>
+            </div>
+            <div>
+                <img src="./img5.jpg" alt="">
+                <h1>Clone of google</h1>
+                <a href="https://shravya-25.github.io/My-Website/">Link</a>
+            </div>
+       
+       
+        </div>
+    
+
+    </div>
+            
+        
+</body>
+</html>
